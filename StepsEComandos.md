@@ -105,4 +105,18 @@ dependencia | Descrição ||
 **pytest-cov==2.10.1**| testes 
 **pytest-django==4.1.0**|testes 
 
+_________________________
 
+**manage.py:** Este é um utilitário de linha de comando utilizado para interagir com o seu projeto. É um invólucro fino à volta da ferramenta django-admin.py. Não precisa de editar este ficheiro.|
+
+**mysite/:** Este é o seu diretório de projetos, que consiste nos seguintes ficheiros:
+
+**__init__.py:** Um ficheiro vazio que diz ao Python para tratar o diretório do mysite como um módulo Python.
+
+**asgi.py:** Esta é a configuração para executar o seu projeto como ASGI, o padrão Python emergente para servidores e aplicações web assíncronas.
+
+**settings.py:** Indica definições e configuração para o seu projeto e contém as definições iniciais por defeito.
+
+**urls.py:** Este é o local onde os seus padrões URL vivem. Cada URL aqui definido é mapeado para uma vista.
+
+**wsgi.py:** Esta é a configuração para executar o seu projeto como uma aplicação Web Server Gateway Interface (WSGI).
