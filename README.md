@@ -1,10 +1,14 @@
-# Tutorial e-commerce com Django
+# Tutorial e-commerce -- Django com Fabio Ruicci
 
-# Importante
+parte 1 -->  https://www.youtube.com/watch?v=NZd386TfzcM
 
-- Vamos tocar esse projeto juntos? Dúvidas, sugestões e correções serão sempre bem vindas.
+parte 2 --> https://www.youtube.com/watch?v=OPpTAG049EA&t=3s
 
-- Cada branch desse repositório é uma parte do tutorial, assim é possível ver como o projeto foi evoluindo.
+parte 3 --> https://www.youtube.com/watch?v=lKZjqqKmLto&t=39s
+
+parte 4 --> https://www.youtube.com/watch?v=bAxEQBY9els
+
+
 
 # Como rodar o projeto
 

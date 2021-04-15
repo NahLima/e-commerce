@@ -3,7 +3,7 @@ from django.urls import resolve, reverse
 from pytest_django.asserts import assertTemplateUsed
 
 
-@pytest.fixture
+@pytest.fixture #fixture reutiliza os testes
 def home_response(client):
     return client.get(reverse("pages:home"))
 

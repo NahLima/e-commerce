@@ -2,9 +2,10 @@ import pytest
 
 from ..models import User
 
-pytestmark = pytest.mark.django_db
+# ele usa o banco de dados
+pytestmark = pytest.mark.django_db  
 
-
+#criando um usuario
 def test_create_user():
     user = User.objects.create_user(
         username="usuario_test", email="usuario@test.com", password="passw0rd"

@@ -4,8 +4,10 @@ from django.contrib.auth import admin as auth_admin
 from .forms import UserChangeForm, UserCreationForm
 from .models import User
 
-
+#configura o painel de admin para o nosso usuario
 @admin.register(User)
 class UserAdmin(auth_admin.UserAdmin):
     form = UserChangeForm
     add_form = UserCreationForm
+
+
